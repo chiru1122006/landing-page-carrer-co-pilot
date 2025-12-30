@@ -1,7 +1,8 @@
 import React from "react";
-import nextEra from "../../images/next era.png";
 
 export default function Page4_5() {
+  const nextEra = new URL('../images/next era.png', import.meta.url).href;
+  
   return (
     <div className="flex justify-center items-center min-h-screen bg-black">
       <img
