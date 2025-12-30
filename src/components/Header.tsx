@@ -10,8 +10,6 @@ const Header: React.FC<HeaderProps> = ({ activeTab = 'Home' }) => {
 
   const navItems = [
     { id: 'Home', label: 'Home' },
-    { id: 'Features', label: 'Features' },
-    { id: 'Roadmap', label: 'Roadmap' },
     { id: 'Dashboard', label: 'Dashboard' },
   ];
 
@@ -263,11 +261,11 @@ const Header: React.FC<HeaderProps> = ({ activeTab = 'Home' }) => {
                     </button>
                   </li>
 
-                  {/* Book a Call CTA */}
+                  {/* Login CTA */}
                   <li className="ml-2 list-none">
-                    <button className="relative inline-flex items-center h-full cursor-pointer whitespace-nowrap rounded-full px-5 py-2 text-sm font-medium cta-button">
-                      Book a Call
-                    </button>
+                    <a href="https://frontend-career-copilot.vercel.app/login" target="_blank" rel="noopener noreferrer" className="relative inline-flex items-center h-full cursor-pointer whitespace-nowrap rounded-full px-5 py-2 text-sm font-medium cta-button">
+                      Login
+                    </a>
                   </li>
                 </div>
               </ul>
