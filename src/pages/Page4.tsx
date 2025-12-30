@@ -159,7 +159,7 @@ export default function CareerFlow() {
   const lineHeight = useTransform(smoothProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <div className="min-h-screen bg-[#080808] text-white overflow-x-hidden selection:bg-white/20">
+  <div className="min-h-screen bg-black text-white overflow-x-hidden selection:bg-white/20">
       <FontStyles />
       
       {/* Background Texture Only - No Glows */}
@@ -196,7 +196,7 @@ export default function CareerFlow() {
               style={{ top: lineHeight }}
               className="absolute left-1/2 -translate-x-1/2 -mt-5 z-20"
             >
-               <div className="bg-[#080808] p-2 rounded-full border border-gray-700">
+               <div className="bg-black p-2 rounded-full border border-gray-700">
                   <Bot className="w-6 h-6 text-white" />
                </div>
             </motion.div>

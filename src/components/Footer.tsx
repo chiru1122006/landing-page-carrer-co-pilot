@@ -36,8 +36,8 @@ const Footer = () => {
             </div>
 
             {/* Get Started Button */}
-            <button className="group relative px-6 py-2.5 overflow-hidden rounded-full border border-gray-400/50 bg-white/5 backdrop-blur-sm transition-all duration-300 hover:bg-white hover:border-white">
-              <span className="relative flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-white font-medium transition-colors duration-300 group-hover:text-black">
+            <button className="group relative px-6 py-2.5 overflow-hidden rounded-full border border-gray-400/50 bg-white text-black backdrop-blur-sm transition-all duration-300 hover:bg-white hover:border-white">
+              <span className="relative flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-black font-medium transition-colors duration-300 group-hover:text-black">
                 Get Started
                 <ArrowRight className="w-3 h-3 transition-transform duration-300 group-hover:translate-x-1" />
               </span>

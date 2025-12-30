@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white flex items-center justify-center p-4 md:p-10 relative overflow-hidden">
+  <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 md:p-10 relative overflow-hidden">
       
       {/* Injecting the necessary styles and fonts to support the custom classes 
         found in the original HTML (animate-gradient-x, font-instrument-serif, etc.)

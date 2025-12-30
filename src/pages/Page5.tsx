@@ -147,20 +147,21 @@ export default function Page5() {
   ];
 
   if (!assetsLoaded) {
-    return <div className="h-screen w-full flex items-center justify-center bg-[#080808] text-white">Loading Experience...</div>;
+  return <div className="h-screen w-full flex items-center justify-center bg-black text-white">Loading Experience...</div>;
   }
 
   return (
-    <div className="bg-[#080808] min-h-screen font-sans text-white selection:bg-white selection:text-black overflow-x-hidden">
+  <div className="bg-black min-h-screen font-sans text-white selection:bg-white selection:text-black overflow-x-hidden">
       
       {/* 1. Intro / Spacer Section 
           User scrolls past this to trigger the pin 
       */}
-      <div className="h-[50vh] flex flex-col items-center justify-center bg-[#080808] z-20 relative">
-        <h1 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4 text-white">
-          The Next Era
-        </h1>
+  <div className="h-[50vh] flex flex-col items-center justify-center bg-black z-20 relative">
         <p className="text-neutral-500 animate-bounce mt-10">Scroll Down</p>
+        <h2 className="text-balance font-medium text-4xl sm:text-5xl md:text-6xl text-white leading-tight mt-8">
+          <span className="font-['Instrument_Serif'] block">Always Learning.</span>
+          <span className="font-['Instrument_Serif'] italic tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">Always Improving.</span>
+        </h2>
       </div>
 
       {/* 2. MAIN HORIZONTAL SCROLL SECTION 
@@ -168,7 +169,7 @@ export default function Page5() {
       */}
       <div 
         ref={containerRef} 
-        className="h-screen w-full bg-[#080808] relative overflow-hidden flex items-center"
+  className="h-screen w-full bg-black relative overflow-hidden flex items-center"
       >
         {/* The Moving Track 
             Contains Text Block + Cards in one continuous line.
