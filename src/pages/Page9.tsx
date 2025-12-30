@@ -125,7 +125,7 @@ export default function Page9() {
           
           {/* PRIMARY BUTTON: "Start Now" */}
           <MagneticButton strength={0.4} hoverScale={1.05}>
-            <button className="group relative inline-flex items-center justify-center">
+            <a href="https://frontend-career-copilot.vercel.app/login" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center">
               {/* Gradient Border Glow Container */}
               <div className="absolute -inset-[2px] rounded-full bg-gradient-to-r from-[#60A5FA] via-[#EC4899] to-[#F59E0B] opacity-75 blur-sm transition duration-500 group-hover:opacity-100 group-hover:blur-md" />
               
@@ -142,17 +142,17 @@ export default function Page9() {
                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
                 </div>
               </div>
-            </button>
+            </a>
           </MagneticButton>
 
-          {/* SECONDARY BUTTON: "Explore Features" */}
+          {/* SECONDARY BUTTON: Login */}
           <MagneticButton strength={0.2} hoverScale={1.02}>
-            <button className="group relative px-8 py-4 rounded-full overflow-hidden bg-transparent border border-white/10 transition-colors duration-300 hover:border-white/30 hover:bg-white/5">
+            <a href="https://frontend-career-copilot.vercel.app/login" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 rounded-full overflow-hidden bg-transparent border border-white/10 transition-colors duration-300 hover:border-white/30 hover:bg-white/5">
               <span className="relative flex items-center gap-2 text-gray-300 font-medium group-hover:text-white transition-colors">
                 <Sparkles className="w-4 h-4 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 text-pink-400" />
-                Explore Features
+                Login
               </span>
-            </button>
+            </a>
           </MagneticButton>
 
         </div>
