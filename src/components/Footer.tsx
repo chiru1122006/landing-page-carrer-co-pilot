@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/images/footer-image/footer.png" 
+            src={new URL('../images/footer-image/footer.png', import.meta.url).href}
             alt="Footer Background" 
             className="w-full h-full object-cover"
           />

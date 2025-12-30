@@ -113,7 +113,7 @@ export default function App() {
         {/* Right Side - Image */}
         <div className="flex-1 max-w-full lg:max-w-[40%] flex items-center justify-center">
           <img 
-            src="/images/page6-images/page6-left.webp" 
+            src={new URL('../images/page6-images/page6-left.webp', import.meta.url).href}
             alt="Thinking Agent Visualization" 
             className="w-full h-auto object-contain"
           />

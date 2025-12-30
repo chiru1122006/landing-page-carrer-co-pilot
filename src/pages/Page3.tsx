@@ -36,35 +36,35 @@ const cardData: BentoCardProps[] = [
     title: 'Unclear Career Direction',
     description: 'Students don\'t know which role actually fits their skills, interests, or background.',
     label: 'Problem 1',
-    image: '/images/problem1.webp'
+    image: new URL('../images/problem1.webp', import.meta.url).href
   },
   {
     color: '#060010',
     title: 'Scattered Learning Resources',
     description: 'Career guidance, courses, and advice are spread across many platforms with no single path.',
     label: 'Problem 2',
-    image: '/images/problem2.webp'
+    image: new URL('../images/problem2.webp', import.meta.url).href
   },
   {
     color: '#060010',
     title: 'Skill–Job Mismatch',
     description: 'People learn randomly without knowing what skills real jobs actually require.',
     label: 'Problem 3',
-    image: '/images/problem3.webp'
+    image: new URL('../images/problem3.webp', import.meta.url).href
   },
   {
     color: '#060010',
     title: 'No Feedback After Rejections',
     description: 'Candidates get rejected but never understand why or how to improve.',
     label: 'Problem 4',
-    image: '/images/problem4.webp'
+    image: new URL('../images/problem4.webp', import.meta.url).href
   },
   {
     color: '#060010',
     title: 'Static & Generic Guidance',
     description: 'Most platforms give the same advice to everyone and never adapt over time.',
     label: 'Problem 5',
-    image: '/images/problem5.webp'
+    image: new URL('../images/problem5.webp', import.meta.url).href
   },
   {
     color: '#060010',

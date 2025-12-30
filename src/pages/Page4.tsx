@@ -39,7 +39,7 @@ const steps = [
     icon: <Sparkles className="w-4 h-4" />, // Slightly smaller icon
     description: "Our system ingests your entire professional history, analyzing skills, education, and hidden potential to build a comprehensive, dynamic career profile that evolves as you grow.",
     bullets: ["Ingests resume & portfolio data", "Identifies core strengths", "Maps career trajectory goals"],
-    image: "/images/page4-images/UNDERSTAND YOU.webp"
+    image: new URL('../images/page4-images/UNDERSTAND YOU.webp', import.meta.url).href
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const steps = [
     icon: <Brain className="w-4 h-4" />,
     description: "Using advanced agentic reasoning, the AI identifies critical skill gaps between your current profile and your target roles, strategically planning the most efficient bridge to your goals.",
     bullets: ["Gap analysis vs. market data", "Strategic role matching", "Personalized upskilling logic"],
-    image: "/images/page4-images/THINK & REASON.webp"
+    image: new URL('../images/page4-images/THINK & REASON.webp', import.meta.url).href
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const steps = [
     icon: <Zap className="w-4 h-4" />,
     description: "We don't just plan; we act. The system automatically generates structured learning roadmaps, drafts outreach emails, and curates job applications tailored specifically to your new profile.",
     bullets: ["Auto-generates learning paths", "Curates job applications", "Drafts outreach messages"],
-    image: "/images/page4-images/ACT AUTOMATICALLY.webp"
+    image: new URL('../images/page4-images/ACT AUTOMATICALLY.webp', import.meta.url).href
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const steps = [
     icon: <Repeat className="w-4 h-4" />,
     description: "The cycle never stops. As you interact and achieve milestones, the intelligence engine refines its understanding of your preferences, continuously optimizing recommendations for long-term success.",
     bullets: ["Feedback loop integration", "Real-time market adaptation", "Long-term success tracking"],
-    image: "/images/page4-images/LEARNS & IMPROVES.webp"
+    image: new URL('../images/page4-images/LEARNS & IMPROVES.webp', import.meta.url).href
   }
 ];
 

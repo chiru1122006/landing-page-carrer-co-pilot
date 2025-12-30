@@ -105,44 +105,44 @@ export default function Page5() {
     { 
       id: 1, 
       title: "Skill Gap Analyzer", 
-      desc: "Finds what skills you’re missing and prioritizes what to learn.", 
+      desc: "Finds what skills you're missing and prioritizes what to learn.", 
       icon: <Search size={48} className="text-white" />, 
-      img: "/images/page5-images/Skill Gap Analyzer.webp" 
+      img: new URL('../images/page5-images/Skill Gap Analyzer.webp', import.meta.url).href
     },
     { 
       id: 2, 
       title: "Personalized Roadmap", 
       desc: "AI creates week-by-week learning plans that adapt when you improve.", 
       icon: <Map size={48} className="text-white" />, 
-      img: "/images/page5-images/roadmap.webp" 
+      img: new URL('../images/page5-images/roadmap.webp', import.meta.url).href
     },
     { 
       id: 3, 
       title: "Career Readiness Score", 
       desc: "Shows how close you are to your target job.", 
       icon: <Award size={48} className="text-white" />, 
-      img: "/images/page5-images/rediness.webp" 
+      img: new URL('../images/page5-images/rediness.webp', import.meta.url).href
     },
     { 
       id: 4, 
       title: "AI Job Match", 
       desc: "Matches your profile with jobs and explains why you fit or not.", 
       icon: <Briefcase size={48} className="text-white" />, 
-      img: "/images/page5-images/AI Job Match.webp" 
+      img: new URL('../images/page5-images/AI Job Match.webp', import.meta.url).href
     },
     { 
       id: 5, 
       title: "Feedback Intelligence", 
       desc: "Learns from rejections & interviews and updates your plan.", 
       icon: <MessageSquare size={48} className="text-white" />, 
-      img: "/images/page5-images/Feedback Intelligence.webp" 
+      img: new URL('../images/page5-images/Feedback Intelligence.webp', import.meta.url).href
     },
     { 
       id: 6, 
       title: "Memory-Based AI", 
       desc: "Remembers your progress and improves continuously.", 
       icon: <Database size={48} className="text-white" />, 
-      img: "/images/page5-images/memory.webp" 
+      img: new URL('../images/page5-images/memory.webp', import.meta.url).href
     },
   ];
 
