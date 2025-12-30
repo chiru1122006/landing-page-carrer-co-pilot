@@ -430,12 +430,12 @@ const App: React.FC = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <button className="group flex items-center gap-3 px-8 py-4 rounded-full bg-white/10 hover:bg-white/15 backdrop-blur-xl border border-white/20 text-white font-medium text-lg transition-all shadow-lg shadow-black/20 hover:shadow-2xl hover:shadow-blue-900/20 hover:scale-105 active:scale-95">
+            <a href="https://frontend-career-copilot.vercel.app/login" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 px-8 py-4 rounded-full bg-white/10 hover:bg-white/15 backdrop-blur-xl border border-white/20 text-white font-medium text-lg transition-all shadow-lg shadow-black/20 hover:shadow-2xl hover:shadow-blue-900/20 hover:scale-105 active:scale-95">
               Get Started
               <div className="flex items-center justify-center w-8 h-8 rounded-full bg-white/20 group-hover:bg-white/30 transition-all group-hover:rotate-45">
                 <ArrowUpRight className="w-4 h-4" />
               </div>
-            </button>
+            </a>
           </div>
         </main>
 
